@@ -3,7 +3,7 @@
 using namespace std;
 
 class Room{
-    public:
+    public:                         // all members are public 
         int length, breadth, height;
 
         int areaOfRoom(){
