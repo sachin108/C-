@@ -1,0 +1,15 @@
+In C++, we can change the way operators work for user-defined types like objects and 
+structures. This is known as operator overloading. 
+
+For example,
+Suppose we have created three objects c1, c2 and result from a class named 
+Complex that represents complex numbers.
+
+Since operator overloading allows us to change how operators work, we can redefine
+how the + operator works and use it to add the complex numbers of c1 and c2.
+
+We cannot use operator overloading for fundamental data types like int, float, char and so on.
+
+To overload an operator, we use a special operator function. We define the function 
+inside the class or structure whose objects/variables we want the overloaded operator 
+to work with.
