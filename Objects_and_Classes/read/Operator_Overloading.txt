@@ -13,3 +13,14 @@ We cannot use operator overloading for fundamental data types like int, float, c
 To overload an operator, we use a special operator function. We define the function 
 inside the class or structure whose objects/variables we want the overloaded operator 
 to work with.
+
+Two operators = and & are already overloaded by default in C++. 
+For example, to copy objects of the same class, we can directly use the = operator. 
+
+Operator overloading cannot change the precedence and associativity of operators. 
+
+There are 4 operators that cannot be overloaded in C++. They are:
+    :: (scope resolution)
+    . (member selection)
+    .* (member selection through pointer to function)
+    ?: (ternary operator)

@@ -26,10 +26,24 @@ class Complex{
             temp.imag=imag+obj.imag;
             return temp;
         }
+
+        void output(){
+            if(imag<0){
+                cout<<"Output  complex number: "<<real<<imag<<"i"<<endl;
+            }
+            else{
+                cout<<"Output  complex number: "<<real<<"+"<<imag<<"i"<<endl;
+            }
+        }
 };
 
 int main(int argc, char const *argv[])
 {
     /* code */
+    Complex c1, c2;
+    c1.input();
+    c2.input();
+    Complex c3=c1+c2;
+    c3.output();
     return 0;
 }
