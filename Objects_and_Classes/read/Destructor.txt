@@ -1,0 +1,33 @@
+A destructor is a special member function of a class that is called if an object of that class gets out of scope or 
+when the delete expression is used on a pointer to that class's object. A destructor will have the same name as the
+class, but it will be prefixed with a tilde(~) , and it will not be able to return any value or take any parameters. 
+Destructor can be extremely useful for releasing resizable objects.
+
+Destructor is useful for releasing resources before exiting a program, such as closing files and releasing memories.
+
+Properties of C++ Destructor
+    It's not possible to declare it static or const.
+
+    There are no arguments for the destructor.
+    
+    It doesn't even have a void return form.
+    
+    In the public section of the class, a destructor should be declared.
+
+    The destructor's address is inaccessible to the programmer.
+
+
+When is a Destructor Called?
+
+    The operation is completed
+
+    The program is completed
+
+    A block containing local variables is completed
+
+    The delete operator is used
+
+
+The destructor cannot be overloaded. 
+
+There can only one destructor in a class.
